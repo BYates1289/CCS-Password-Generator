@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("assets/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid #000;
+  padding-top: 30px;
+  padding: 30px;
+}
+
+.outputPassword {
+  margin-right: 0.5rem;
+  min-width: 100%;
+}
+
+.fa-copy {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.fa-copy:hover {
+  color: #0d6efd;
+}
+
+input {
+  text-align: center;
+}
+
+img {
+  width: 130px;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
