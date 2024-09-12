@@ -1,29 +1,32 @@
-* {
+body {
+  background-color: #1b1b37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
-  user-select: none;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-image: url("assets/img/bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: none;
+.banner {
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
-  min-height: 100vh;
-  overflow-y: hidden;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 50%;
+  height: auto;
 }
 
 .box {
   background-color: white;
-  border: 1px solid #000;
-  padding-top: 30px;
   padding: 30px;
-  margin: 0 10px 0 10px;
+  margin: 0 10px;
+  border-radius: 50px 0;
+  width: 80%;
+  max-width: 500px;
 }
 
 .outputPassword {
@@ -35,8 +38,25 @@ body {
   cursor: pointer;
   font-size: 1.5em;
 }
+
+.fa-copy {
+  color: #1b1b37;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b1b37;
+  border: none;
+  padding: 8px !important;
+}
+
 .fa-copy:hover {
-  color: #0d6efd;
+  color: #efc811;
+}
+
+.btn-primary:hover {
+  color: #1b1b37;
+  background-color: #efc811;
 }
 
 input {

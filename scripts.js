@@ -55,6 +55,6 @@ document.querySelector(".fa-copy").addEventListener("click",()=>{
   outputPassword.select();
   outputPassword.setSelectionRange(0, 99999); /* For mobile devices */
 
-   /* Copy the text inside the text field */
+   /* Copy text inside the text field */
   navigator.clipboard.writeText(outputPassword.value);
 });
